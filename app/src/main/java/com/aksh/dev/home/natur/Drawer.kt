@@ -55,7 +55,7 @@ class Drawer : BottomSheetDialogFragment() {
             loginBottomSheet.show(fragmentManager, "login_bottom_sheet")
         }
 
-        view.appVersion.text = "Version \u2022 ${BuildConfig.VERSION_NAME}"
+        view.appVersion.text = "version \u2022 ${BuildConfig.VERSION_NAME}"
     }
 
 
