@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#006941</color>
+    <color name="colorPrimary">#0c9b63</color>
+    <color name="colorAccent">#1fbd7c</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="formAccent">#72d2a4</color>
+    <color name="formAccentTrans">#3372d2a4</color>
+    <color name="secondaryAccent">#bf1b32</color>
+    <color name="secondaryAccentTrans">#33f9e1e4</color>
+</resources>

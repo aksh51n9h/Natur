@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/gridViewToggle"
+        android:icon="@drawable/ic_view_quilt"
+        android:title="@string/grid_layout_toggle"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/listViewToggle"
+        android:icon="@drawable/ic_view_stream"
+        android:title="@string/list_view_toggle"
+        app:showAsAction="ifRoom" />
+</menu>

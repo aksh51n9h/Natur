@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/category_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:drawableStart="@drawable/ic_layers"
+        android:drawableEnd="@drawable/ic_arrow_drop_down"
+        android:drawablePadding="16dp"
+        android:padding="8dp"
+        android:text="@string/sheet_categories"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/divider"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp" />
+
+    <include
+        layout="@layout/categories_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp" />
+</LinearLayout>

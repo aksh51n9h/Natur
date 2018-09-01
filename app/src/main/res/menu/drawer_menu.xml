@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/home"
+            android:checkable="true"
+            android:icon="@drawable/ic_home"
+            android:title="@string/sheet_home" />
+        <item
+            android:id="@+id/categories"
+            android:checkable="true"
+            android:icon="@drawable/ic_layers"
+            android:title="@string/sheet_categories" />
+        <item
+            android:id="@+id/yourOrders"
+            android:checkable="true"
+            android:icon="@drawable/ic_receipt"
+            android:title="@string/sheet_your_orders" />
+        <item
+            android:id="@+id/yourWishlist"
+            android:checkable="true"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/sheet_favourite" />
+        <item
+            android:id="@+id/sellOnNatur"
+            android:checkable="true"
+            android:icon="@drawable/ic_store"
+            android:title="@string/sheet_sell_on_natur" />
+        <item
+            android:id="@+id/settings"
+            android:checkable="true"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/sheet_settings" />
+        <item
+            android:id="@+id/notificationSettings"
+            android:checkable="true"
+            android:icon="@drawable/ic_notifications"
+            android:title="@string/sheet_notifications" />
+        <item
+            android:id="@+id/faqs"
+            android:checkable="true"
+            android:icon="@drawable/ic_help"
+            android:title="@string/sheet_faq" />
+    </group>
+</menu>

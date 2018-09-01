@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_outline_account_circle"
+        android:drawablePadding="16dp"
+        android:padding="8dp"
+        android:text="@string/log_in"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/divider" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/userid_box"
+        style="@style/SellerForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/userid_hint_text"
+        app:errorEnabled="true"
+        app:helperText="@string/userid_helper_text"
+        app:helperTextEnabled="true"
+        app:hintEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userid_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_person"
+            android:drawablePadding="12dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_box"
+        style="@style/SellerForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pwd_hint_text"
+        app:hintEnabled="true"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_vpn_key"
+            android:drawablePadding="12dp"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/userCancelLogin"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="@string/close"
+            android:textColor="@color/colorAccent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end"
+            android:layout_margin="4dp"
+            android:text="@string/log_in"
+            app:backgroundTint="@color/colorAccent" />
+
+    </LinearLayout>
+</LinearLayout>

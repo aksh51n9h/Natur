@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Natur</string>
+    <string name="searchHint">Search</string>
+    <string name="add_image">Add Image</string>
+    <string name="action">Action</string>
+    <string name="hide_Info">Hide</string>
+    <string name="fav_item">Add to favourites</string>
+    <string name="grid_layout_toggle">Grid View</string>
+    <string name="list_view_toggle">List View</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="user_email_id">com.example@domain.com</string>
+    <string name="sheet_home">Home</string>
+    <string name="sheet_categories">Categories</string>
+    <string name="sheet_notifications">Notifications</string>
+    <string name="sheet_faq">FAQ\'s</string>
+    <string name="category_name">Category</string>
+    <string name="evergreen">Evergreen</string>
+    <string name="seasonal">Seasonal</string>
+    <string name="flowers">Flowers</string>
+    <string name="plants">Plants</string>
+    <string name="userid_hint_text">User ID</string>
+    <string name="pwd_hint_text">Password</string>
+    <string name="userid_helper_text">com.example@domain.com</string>
+    <string name="close">Close</string>
+    <string name="view_all">View all</string>
+    <string name="search">Search</string>
+    <string name="new_items">New Items</string>
+    <string name="top_items">Top Items</string>
+    <string name="cart">View Cart</string>
+    <string name="app_title">\tNatur</string>
+    <string name="sheet_your_orders">Your Orders</string>
+    <string name="sheet_favourite">Your Wishlist</string>
+    <string name="sheet_sell_on_natur">Sell on natur</string>
+    <string name="sheet_settings">Settings</string>
+    <string name="full_name_hint_text">Full Name</string>
+    <string name="address_hint_text">Address</string>
+    <string name="phone_no_hint_text">Phone Number</string>
+    <string name="city_hint_text">City</string>
+    <string name="state_hint_text">State</string>
+    <string name="pincode_hint_text">Pincode</string>
+    <string name="email_hint_text">Email</string>
+    <string name="done">Done</string>
+    <string name="create">Create</string>
+    <string name="next">Next</string>
+    <string name="view_wishlist">Wishlist</string>
+    <string name="common_plants">Common Plants</string>
+    <string name="flowering_plants">Flowering Plants</string>
+    <string name="foliage_plants">Foliage Plants</string>
+    <string name="easy_and_low_light_plants">Easy and low light plants</string>
+    <string name="cacti_plants">Cacti Plants</string>
+    <string name="trailing_climbing_plants"><![CDATA[Trailing & Climbing Plants]]></string>
+    <string name="succulent_plants">Succulent Plants</string>
+    <string name="christmas_plants">Christmas Plants</string>
+    <string name="indoor_plants">Indoor Plants</string>
+    <string name="ferns_for_indoors">Ferns for indoors</string>
+    <string name="large_house_plants">Large House Plants</string>
+    <string name="hanging_basket_plants">Hanging Basket Plants</string>
+    <string-array name="cities">
+        <item>Kanpur</item>
+        <item>Lucknow</item>
+        <item>New Delhi</item>
+    </string-array>
+
+    <string-array name="states">
+        <item>Uttar Pradesh</item>
+    </string-array>
+</resources>

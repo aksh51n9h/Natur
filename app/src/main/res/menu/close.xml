@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/favItem"
+        android:icon="@drawable/ic_favorite_border"
+        android:title="@string/fav_item"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/hideInfo"
+        android:icon="@drawable/ic_keyboard_arrow_down"
+        android:title="@string/hide_Info"
+        app:showAsAction="ifRoom" />
+</menu>

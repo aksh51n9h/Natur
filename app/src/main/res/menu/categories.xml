@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/commonPlants"
+            android:checkable="true"
+            android:icon="@drawable/ic_black_willow"
+            android:title="@string/common_plants"></item>
+        <item
+            android:id="@+id/floweringPlants"
+            android:checkable="true"
+            android:icon="@drawable/ic_flower"
+            android:title="@string/flowering_plants" />
+        <item
+            android:id="@+id/foliagePlants"
+            android:checkable="true"
+            android:icon="@drawable/ic_rhomboid"
+            android:title="@string/foliage_plants" />
+        <item
+            android:id="@+id/cactiPlants"
+            android:checkable="true"
+            android:icon="@drawable/ic_cactus"
+            android:title="@string/cacti_plants" />
+        <item
+            android:id="@+id/trailingClimbingPlants"
+            android:checkable="true"
+            android:icon="@drawable/ic_floral_design_silhouette"
+            android:title="@string/trailing_climbing_plants"></item>
+        <item
+            android:id="@+id/hangingBasketPlants"
+            android:checkable="true"
+            android:icon="@drawable/ic_hanging_pot"
+            android:title="@string/hanging_basket_plants" />
+        <item
+            android:id="@+id/succulentPlants"
+            android:checkable="true"
+            android:icon="@drawable/ic_plant"
+            android:title="@string/succulent_plants" />
+        <item
+            android:id="@+id/christmasPlants"
+            android:checkable="true"
+            android:icon="@drawable/ic_christmas_tree"
+            android:title="@string/christmas_plants" />
+        <item
+            android:id="@+id/indoorPlants"
+            android:checkable="true"
+            android:icon="@drawable/ic_indoor_plants"
+            android:title="@string/indoor_plants" />
+        <item
+            android:id="@+id/fernsForIndoors"
+            android:checkable="true"
+            android:icon="@drawable/ic_fern"
+            android:title="@string/ferns_for_indoors" />
+        <item
+            android:id="@+id/largeHousePlants"
+            android:checkable="true"
+            android:icon="@drawable/ic_plant_large"
+            android:title="@string/large_house_plants" />
+    </group>
+</menu>
